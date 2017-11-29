@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.framework    = 'UIKit'
   
-  s.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '9.0'
 end
