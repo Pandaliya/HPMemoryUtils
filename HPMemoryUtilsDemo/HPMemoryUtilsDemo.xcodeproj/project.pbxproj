@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69803E881FE8BD370059AAC4 /* NSObject+HPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E811FE8BD370059AAC4 /* NSObject+HPMemory.m */; };
+		69803E891FE8BD370059AAC4 /* NSTimer+HPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E851FE8BD370059AAC4 /* NSTimer+HPBlock.m */; };
+		69803E8A1FE8BD370059AAC4 /* HPTimerTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E861FE8BD370059AAC4 /* HPTimerTask.m */; };
+		69803E8D1FE8C5290059AAC4 /* HPObservered.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E8C1FE8C5290059AAC4 /* HPObservered.m */; };
+		69803E901FE8CEEF0059AAC4 /* HPObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E8F1FE8CEEF0059AAC4 /* HPObserver.m */; };
+		69803E931FE8CF000059AAC4 /* HPObserverHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E921FE8CF000059AAC4 /* HPObserverHandle.m */; };
+		69803E961FE8CF1A0059AAC4 /* HPObserverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69803E951FE8CF1A0059AAC4 /* HPObserverManager.m */; };
+		69BB558B1FCED93A00F913EE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BB558A1FCED93A00F913EE /* TableViewController.m */; };
 		69D822A91FCE6B63004AAF8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D822A81FCE6B63004AAF8C /* AppDelegate.m */; };
 		69D822AC1FCE6B63004AAF8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D822AB1FCE6B63004AAF8C /* ViewController.m */; };
 		69D822AF1FCE6B63004AAF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D822AD1FCE6B63004AAF8C /* Main.storyboard */; };
 		69D822B11FCE6B63004AAF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D822B01FCE6B63004AAF8C /* Assets.xcassets */; };
 		69D822B41FCE6B63004AAF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D822B21FCE6B63004AAF8C /* LaunchScreen.storyboard */; };
 		69D822B71FCE6B63004AAF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D822B61FCE6B63004AAF8C /* main.m */; };
-		69D822C01FCE6BCF004AAF8C /* NSTimer+HPBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D822BF1FCE6BCF004AAF8C /* NSTimer+HPBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69803E801FE8BD370059AAC4 /* NSObject+HPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HPMemory.h"; sourceTree = "<group>"; };
+		69803E811FE8BD370059AAC4 /* NSObject+HPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HPMemory.m"; sourceTree = "<group>"; };
+		69803E831FE8BD370059AAC4 /* NSTimer+HPBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HPBlock.h"; sourceTree = "<group>"; };
+		69803E841FE8BD370059AAC4 /* HPTimerTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTimerTask.h; sourceTree = "<group>"; };
+		69803E851FE8BD370059AAC4 /* NSTimer+HPBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HPBlock.m"; sourceTree = "<group>"; };
+		69803E861FE8BD370059AAC4 /* HPTimerTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTimerTask.m; sourceTree = "<group>"; };
+		69803E8B1FE8C5290059AAC4 /* HPObservered.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPObservered.h; sourceTree = "<group>"; };
+		69803E8C1FE8C5290059AAC4 /* HPObservered.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPObservered.m; sourceTree = "<group>"; };
+		69803E8E1FE8CEEF0059AAC4 /* HPObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPObserver.h; sourceTree = "<group>"; };
+		69803E8F1FE8CEEF0059AAC4 /* HPObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPObserver.m; sourceTree = "<group>"; };
+		69803E911FE8CF000059AAC4 /* HPObserverHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPObserverHandle.h; sourceTree = "<group>"; };
+		69803E921FE8CF000059AAC4 /* HPObserverHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPObserverHandle.m; sourceTree = "<group>"; };
+		69803E941FE8CF1A0059AAC4 /* HPObserverManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPObserverManager.h; sourceTree = "<group>"; };
+		69803E951FE8CF1A0059AAC4 /* HPObserverManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPObserverManager.m; sourceTree = "<group>"; };
+		69BB55891FCED93A00F913EE /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		69BB558A1FCED93A00F913EE /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		69D822A41FCE6B63004AAF8C /* HPMemoryUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPMemoryUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D822A71FCE6B63004AAF8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69D822A81FCE6B63004AAF8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +50,6 @@
 		69D822B31FCE6B63004AAF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69D822B51FCE6B63004AAF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69D822B61FCE6B63004AAF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69D822BE1FCE6BCF004AAF8C /* NSTimer+HPBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HPBlock.h"; sourceTree = "<group>"; };
-		69D822BF1FCE6BCF004AAF8C /* NSTimer+HPBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HPBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69803E7F1FE8BD370059AAC4 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				69803E801FE8BD370059AAC4 /* NSObject+HPMemory.h */,
+				69803E811FE8BD370059AAC4 /* NSObject+HPMemory.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		69803E821FE8BD370059AAC4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				69803E831FE8BD370059AAC4 /* NSTimer+HPBlock.h */,
+				69803E851FE8BD370059AAC4 /* NSTimer+HPBlock.m */,
+				69803E841FE8BD370059AAC4 /* HPTimerTask.h */,
+				69803E861FE8BD370059AAC4 /* HPTimerTask.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		69803E871FE8BD370059AAC4 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				69803E8E1FE8CEEF0059AAC4 /* HPObserver.h */,
+				69803E8F1FE8CEEF0059AAC4 /* HPObserver.m */,
+				69803E911FE8CF000059AAC4 /* HPObserverHandle.h */,
+				69803E921FE8CF000059AAC4 /* HPObserverHandle.m */,
+				69803E941FE8CF1A0059AAC4 /* HPObserverManager.h */,
+				69803E951FE8CF1A0059AAC4 /* HPObserverManager.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		69D8229B1FCE6B63004AAF8C = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +118,12 @@
 			children = (
 				69D822A71FCE6B63004AAF8C /* AppDelegate.h */,
 				69D822A81FCE6B63004AAF8C /* AppDelegate.m */,
+				69803E8B1FE8C5290059AAC4 /* HPObservered.h */,
+				69803E8C1FE8C5290059AAC4 /* HPObservered.m */,
 				69D822AA1FCE6B63004AAF8C /* ViewController.h */,
 				69D822AB1FCE6B63004AAF8C /* ViewController.m */,
+				69BB55891FCED93A00F913EE /* TableViewController.h */,
+				69BB558A1FCED93A00F913EE /* TableViewController.m */,
 				69D822AD1FCE6B63004AAF8C /* Main.storyboard */,
 				69D822B01FCE6B63004AAF8C /* Assets.xcassets */,
 				69D822B21FCE6B63004AAF8C /* LaunchScreen.storyboard */,
@@ -78,8 +136,9 @@
 		69D822BD1FCE6BA1004AAF8C /* HPMemoryUtils */ = {
 			isa = PBXGroup;
 			children = (
-				69D822BE1FCE6BCF004AAF8C /* NSTimer+HPBlock.h */,
-				69D822BF1FCE6BCF004AAF8C /* NSTimer+HPBlock.m */,
+				69803E7F1FE8BD370059AAC4 /* Memory */,
+				69803E871FE8BD370059AAC4 /* Observer */,
+				69803E821FE8BD370059AAC4 /* Timer */,
 			);
 			name = HPMemoryUtils;
 			path = ../HPMemoryUtils;
@@ -156,10 +215,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D822C01FCE6BCF004AAF8C /* NSTimer+HPBlock.m in Sources */,
+				69803E891FE8BD370059AAC4 /* NSTimer+HPBlock.m in Sources */,
+				69BB558B1FCED93A00F913EE /* TableViewController.m in Sources */,
+				69803E901FE8CEEF0059AAC4 /* HPObserver.m in Sources */,
+				69803E8D1FE8C5290059AAC4 /* HPObservered.m in Sources */,
+				69803E8A1FE8BD370059AAC4 /* HPTimerTask.m in Sources */,
 				69D822AC1FCE6B63004AAF8C /* ViewController.m in Sources */,
 				69D822B71FCE6B63004AAF8C /* main.m in Sources */,
+				69803E961FE8CF1A0059AAC4 /* HPObserverManager.m in Sources */,
+				69803E931FE8CF000059AAC4 /* HPObserverHandle.m in Sources */,
 				69D822A91FCE6B63004AAF8C /* AppDelegate.m in Sources */,
+				69803E881FE8BD370059AAC4 /* NSObject+HPMemory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,13 @@
 //
-//  NSTimer+HPBlock.m
+//  TableViewController.h
 //  HPMemoryUtilsDemo
 //
 //  Created by zhangpan on 2017/11/29.
 //  Copyright © 2017年 Panda. All rights reserved.
 //
 
-#import "NSTimer+HPBlock.h"
+#import <UIKit/UIKit.h>
 
-@implementation NSTimer (HPBlock)
+@interface TableViewController : UITableViewController
 
 @end
